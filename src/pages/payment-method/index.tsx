@@ -3,21 +3,17 @@ import {
   CardsContainer,
   PaymentMethodContainer,
   PaymentMethodContent,
-  Title,
 } from "./styles";
 
 // components
 import Cards from "../../components/cards";
-
-// images
-import Logo from "../../../public/assets/logo/logo.svg";
+import Header from "../../components/header";
 
 function PaymentMethod() {
   return (
     <PaymentMethodContainer>
       <PaymentMethodContent>
-        <img src={Logo} alt="Logo" width={123.51} />
-        <Title>João, como você quer pagar?</Title>
+        <Header text="João, como você quer pagar?" />
 
         <CardsContainer>
           <Cards
