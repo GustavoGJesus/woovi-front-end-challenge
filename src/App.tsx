@@ -3,6 +3,7 @@ import { Navigate, Route, Routes } from "react-router-dom";
 
 // components
 import PaymentMethod from "../src/pages/payment-method";
+import Footer from "./components/footer";
 
 // styles
 import { Global } from "@emotion/react";
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<PaymentMethod />}/>
       </Routes>
+      <Footer />
     </>
   );
 }
