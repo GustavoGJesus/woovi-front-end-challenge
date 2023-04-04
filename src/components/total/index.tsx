@@ -43,7 +43,7 @@ function Total({ textButton, isIcon }: TotalProps) {
           <CardEntry>
             <CardEntryCheck>
               <input type="radio" />
-              <p>1ª entrada no Pix</p>
+              <p>2ª no cartão</p>
             </CardEntryCheck>
 
             <Span>R$ 15.300,00</Span>
