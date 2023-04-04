@@ -77,6 +77,7 @@ export const CardBackgroundPromotion = styled.div`
   padding: 7px;
   margin-top: 5px;
   border-radius: 5px;
+  clip-path: polygon(0% 0%, 99.29% 0%, 95.03% 50%, 99.29% 100%, 0% 100%);
 `;
 
 export const CardTextTotal = styled.p`
