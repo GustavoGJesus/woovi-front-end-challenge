@@ -8,6 +8,7 @@ export const MediaQuerys = {
 export const GlobalStyles = css`
   :root {
     --white: #ffffff;
+    --gray-100: #AFAFAF;
     --gray-200: #e5e5e5;
     --gray-500: #4d4d4d;
 
