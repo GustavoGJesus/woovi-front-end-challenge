@@ -16,6 +16,7 @@ import {
   CardValue,
   ContainerTitle,
 } from "./styles";
+import { Link } from "react-router-dom";
 
 // interface types
 export interface Cardsprops {
@@ -56,7 +57,9 @@ function Cards({
             <CardPrice>{divide}</CardPrice>
             <CardValue>{card_value}</CardValue>
           </CardPriceContainer>
-          <Radio value="a" color="primary" />
+          <Link to="/pix-credit-card">
+            <Radio value="a" color="primary" />
+          </Link>
         </CardCheck>
         {isCashback && <CardText>{card_text}</CardText>}
         {!isCashback && <CardTextTotal>{total}</CardTextTotal>}

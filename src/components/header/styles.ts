@@ -7,11 +7,14 @@ export const ContainerHeader = styled.header`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 `;
 
 export const ContentHeader = styled.div`
   display: flex;
   flex-direction: column;
+
+  text-align: center;
 `;
 
 export const Title = styled.h1`
