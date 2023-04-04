@@ -1,3 +1,6 @@
+// react or any library related
+import { Link } from "react-router-dom";
+
 // styles
 import { Button, CardEntry, CardEntryCheck, Span, Text, TotalContainer, TotalContainerContent, TotalInfo } from "./styles";
 import { Divider, Radio } from "@mui/material";
@@ -15,10 +18,12 @@ function Total({ textButton, isIcon }: TotalProps) {
   return (
     <TotalContainer>
       <TotalContainerContent>
-        <Button>
-          {textButton}
-          {isIcon && <img src={Vector} alt="" />}
-        </Button>
+        <Link to="/payment">
+          <Button>
+            {textButton}
+            {isIcon && <img src={Vector} alt="" />}
+          </Button>
+        </Link>
 
         <div style={{ textAlign: "center" }}>
           <Text>Prazo de pagamento:</Text>

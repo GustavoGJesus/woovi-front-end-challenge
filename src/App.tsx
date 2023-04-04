@@ -5,6 +5,7 @@ import { Navigate, Route, Routes } from "react-router-dom";
 import PaymentMethod from "../src/pages/payment-method";
 import Footer from "./components/footer";
 import PixCredtirCard from "./pages/pix-credit-card";
+import Payment from "./pages/payment";
 
 // styles
 import { Global } from "@emotion/react";
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<PaymentMethod />}/>
         <Route path="/pix-credit-card" element={<PixCredtirCard />}/>
+        <Route path="/payment" element={<Payment />}/>
       </Routes>
       <Footer />
     </>

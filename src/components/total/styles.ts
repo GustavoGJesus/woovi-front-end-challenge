@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 import { MediaQuerys } from "../../styles/global";
 
 export const TotalContainer = styled.div`
-  /* width: 100%; */
+  width: 424px;
   display: flex;
   padding: 36px 15px 36px 15px;
   margin-top: 21px;
