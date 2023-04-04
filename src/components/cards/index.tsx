@@ -19,6 +19,7 @@ import {
 
 // interface types
 export interface Cardsprops {
+  style?: React.CSSProperties;
   title?: string;
   divide: string;
   card_value: string;
@@ -31,6 +32,7 @@ export interface Cardsprops {
 }
 
 function Cards({
+  style,
   title,
   divide,
   card_value,
@@ -42,7 +44,7 @@ function Cards({
   total,
 }: Cardsprops) {
   return (
-    <CardContainer>
+    <CardContainer style={style}>
       {isText && (
         <ContainerTitle>
           <CardTitle>{title}</CardTitle>

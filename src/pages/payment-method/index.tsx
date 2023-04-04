@@ -28,6 +28,7 @@ function PaymentMethod() {
             isText={true}
             isFees={true}
             isCashback={true}
+            style={{ borderRadius: "10px" }}
           >
             🤑 R$ 300,00 de volta no seu Pix na hora
           </Cards>
@@ -42,6 +43,10 @@ function PaymentMethod() {
               isFees={false}
               isCashback={false}
               total="Total: R$ 30.600,00"
+              style={{
+                borderTopLeftRadius: "10px",
+                borderTopRightRadius: "10px",
+              }}
             />
             <Cards
               divide="3x"
@@ -89,6 +94,10 @@ function PaymentMethod() {
               isFees={false}
               isCashback={false}
               total="Total: R$ 30.600,00"
+              style={{
+                borderBottomLeftRadius: "10px",
+                borderBottomRightRadius: "10px",
+              }}
             />
           </div>
         </CardsContainer>

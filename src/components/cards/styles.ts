@@ -8,7 +8,8 @@ export const CardContainer = styled.div`
   height: auto;
   padding: 21px 20px 21px 20px;
   border: 1px solid var(--gray-200);
-  border-radius: 10px;
+  /* border-radius: 10px;
+  border-bottom-left-radius: ; */
 `;
 
 export const ContainerTitle = styled.div`
